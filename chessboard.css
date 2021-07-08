@@ -1,0 +1,41 @@
+.chessboard {
+    display: flex;
+    width: 1016px;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.checker_grey {
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    text-align: center; */
+    background-color: grey;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.checker_lightgrey {
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    text-align: center; */
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.checker_outside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+}
